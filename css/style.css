@@ -1,0 +1,58 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+body {
+    background-image: url("/image/background.gif");
+    background-position: 0% 0% 50%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+body button {
+    background-color: #0a2c52;
+    border-width: 0px;
+    color: #e5f0ff;
+    font-size: 150%;
+    position: fixed;
+    top: 60%;
+}
+
+.rectangle {
+    background-color: white;
+    position: fixed;
+    width: 55%;
+    height: 55%;
+    border: dashed 8px;
+    border-color: #0a2c52;
+    top: 15%;
+    opacity: 0.8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.informations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 100%;
+    max-width: 90%;
+    text-align: center;
+    opacity: unset;
+}
+
+.miyamoto {
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    left: 65%;
+}
